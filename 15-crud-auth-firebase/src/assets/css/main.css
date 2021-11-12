@@ -1,0 +1,34 @@
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.divider {
+  height: 1px;
+}
+.danger {
+  background-color: coral;
+  color: white;
+}
+.success {
+  background-color: green;
+  color: white;
+}
+.alert {
+  font-weight: bold;
+  padding-inline: 20px;
+  padding-block: 1rem;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
+  .form {
+    width: 100%;
+  }
+}

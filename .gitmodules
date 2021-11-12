@@ -1,0 +1,24 @@
+[submodule "17-chat/src/assets/vendor/css-basic-library"]
+	path = 17-chat/src/assets/vendor/css-basic-library
+	url = https://github.com/carlosfernandezcabrero/css-basic-library.git
+[submodule "20-mevn-basic-project/web/src/assets/vendor/css-basic-library"]
+	path = 20-mevn-basic-project/web/src/assets/vendor/css-basic-library
+	url = https://github.com/carlosfernandezcabrero/css-basic-library.git
+[submodule "20-mevn-basic-project/web/src/assets/vendor/css-library"]
+	path = 20-mevn-basic-project/web/src/assets/vendor/css-library
+	url = https://github.com/carlosfernandezcabrero/css-library.git
+[submodule "19-nuxt-app-advanced/static/vendor/css-library"]
+	path = 19-nuxt-app-advanced/static/vendor/css-library
+	url = https://github.com/carlosfernandezcabrero/css-library.git
+[submodule "18-nuxt-app-basic/static/vendor/css-library"]
+	path = 18-nuxt-app-basic/static/vendor/css-library
+	url = https://github.com/carlosfernandezcabrero/css-library.git
+[submodule "17-chat/src/assets/vendor/css-library"]
+	path = 17-chat/src/assets/vendor/css-library
+	url = https://github.com/carlosfernandezcabrero/css-library.git
+[submodule "css-library"]
+	path = css-library
+	url = https://github.com/carlosfernandezcabrero/css-library.git
+[submodule "16-cloud-storage-firebase/src/assets/vendor/css-library"]
+	path = 16-cloud-storage-firebase/src/assets/vendor/css-library
+	url = https://github.com/carlosfernandezcabrero/css-library.git

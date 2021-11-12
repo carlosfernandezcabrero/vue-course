@@ -1,0 +1,24 @@
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.d-flex-center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-inputs {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.group-inputs > * {
+  margin-block: 0;
+}
+

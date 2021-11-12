@@ -1,0 +1,79 @@
+:root {
+  --color-error: #ff5151;
+  --color-success: #4e9f3d;
+  --color-info: #1597e5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif !important;
+
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  height: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--color-text);
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+label {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
+  border: solid 1px lightgray;
+  border-radius: 0.25rem;
+}
+
+input[type="checkbox"] {
+  border-radius: 0.25em;
+  height: 1em;
+  width: 1em;
+}
+
+/* Classes */
+
+.md-cont {
+  padding-inline: 6rem;
+}
+
+.n-row {
+  padding-block: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .md-cont {
+    padding-inline: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .md-cont {
+    padding-inline: 1rem;
+  }
+}
+

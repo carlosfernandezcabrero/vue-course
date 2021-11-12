@@ -1,0 +1,116 @@
+.home {
+  height: 90%;
+}
+
+textarea {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  resize: none;
+}
+
+.chatbox {
+  height: 100%;
+}
+
+.sidebar {
+  width: 25%;
+  padding-top: 1rem;
+  border-right: solid 1px lightgray;
+  float: left;
+  height: 100%;
+}
+
+.sidebar__title {
+  padding-inline: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px lightgray;
+}
+
+.contact {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  margin-block: 0;
+  justify-content: start;
+}
+
+.contact:hover {
+  background-color: #222831;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.contact:not(.selected) {
+  border-bottom: solid 1px lightgray;
+}
+
+.selected {
+  background-color: #00adb5;
+  color: #eeeeee;
+}
+
+.chat {
+  float: left;
+  width: 75%;
+  height: 100%;
+}
+
+.messages-wrapper {
+  height: 90%;
+  width: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+}
+
+.message {
+  max-width: 80%;
+  min-width: 0;
+  display: flex;
+  column-gap: 0.7rem;
+  align-items: center;
+}
+
+.message-local {
+  float: right;
+}
+
+.message-remote {
+  float: left;
+}
+
+.message__author {
+  color: #00ADB5;
+}
+
+.message__text {
+  border-radius: 6px;
+  padding: 0.5rem;
+  color: #393E46;
+}
+
+.message__text-local {
+  background-color: #eeeeee;
+}
+
+.message__text-remote {
+  background-color: #00ADB5;
+  color: white;
+}
+
+.message__time {
+  font-size: smaller;
+  color: #222831;
+}
+
+.message-box {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 75%;
+}
+
+.clearfix {
+  clear: both;
+}

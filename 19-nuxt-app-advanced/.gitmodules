@@ -1,0 +1,3 @@
+[submodule "static/vendor/css-basic-library"]
+	path = static/vendor/css-basic-library
+	url = https://github.com/carlosfernandezcabrero/css-basic-library.git
